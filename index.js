@@ -6,7 +6,7 @@ const { createClient } = require('@supabase/supabase-js');
 const app = express();
 app.use(bodyParser.json());
 
-const port = 3000;
+const port = 8080;
 
 
 const supabaseUrl = "https://nprhjykkrfmyqqzvenpa.supabase.co";
